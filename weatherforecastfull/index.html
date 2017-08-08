@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+
+	<link href="css/style.css" rel="stylesheet" type="text/css"> 
+</head>
+<body>
+	<header>
+		<div id="img">
+			<img src="img/logow.jpg" type="image/jpg">
+		</div>
+
+		<!--Header_section-->
+		<ul>
+			<li class="active"><a href="#hero_section">Home</a></li>
+			<li><a href="weekly.html">Week Report</a></li>
+			<li><a href="#news">News&Videos</a></li>
+			<li><a href="https://www.accuweather.com/en/weather-blogs">Blogs</a></li>
+			<li><a href="weekly.html">Register</a></li>
+		</ul>
+		
+	</header>
+</head>
+<!--Header_section--> 
+
+<body>
+	<div class="hero">
+		<h1>Check today's weather</h1>
+		<form action="get" value="">
+			<ul>
+				<li>
+					<label for="location">Enter the city</label>
+					<input id="location" name="location" />
+				</li>
+
+				<li><input type="submit" value="Check weather"/></li>
+			</ul>	
+		</form>
+	</div>
+</div>
+
+<div class="weather">
+	<table align="Center" id="weatherDisplay">
+		<tr>
+			<th>Current Weather</th>
+			<th>Today</th>
+			<th>Tonight</th>
+			<th>Tomorrow</th>
+		</tr>
+		<tr>
+			<td><img src="img/cloudy.jpg"></td>
+			<td><img src="img/cloudy.jpg"></td>
+			<td><img src="img/srain.jpg"></td>
+			<td><img src="img/srain.jpg"></td>
+		</tr>
+		<tr>
+			<td>28<sup>o</sup>c</td>
+			<td>34<sup>o</sup>c</td>
+			<td>27<sup>o</sup>c</td>
+			<td>33<sup>o</sup>c</td>
+		</tr>
+		<tr>
+			<td>Some clouds</td>
+			<td>Cloudy</td>
+			<td>Some rain</td>
+			<td>A strong strom</td>
+		</tr>
+	</table>
+</div>
+<div class="weekly">
+	<ul>
+		<li><a href="weekly.html">Check weekly weather</a></li>
+	</ul>
+</div>
+
+<div class="news-wrapper">
+	<div class="news">
+		<br />
+		<button class="button" ahref="#News">News</button>
+		<a href="https://www.accuweather.com/en/videos/"><button class="button">Video</button></a>
+		<h2>Weather News</h2>
+	</div>
+	<div class="news-blog">
+		<a href="https://www.accuweather.com/en/weather-news/smoke-from-british-columbia-fires-shrouds-northwest-with-poor-air-quality-dubbed-smokezilla-by-tweeters/70002373"><img src="img/news1.jpg"></a>
+		<h2>Smoke from British Columbia fires shrouds Northwest with poor air quality, dubbed 'Smokezilla' by tweeters</h2>
+	</div>
+	<div class="news-data">
+		<p id="date">August 03, 2017, 2:05:46 PM EDT</p>
+		<p>While the smoke originating from the wildfires burning across British Columbia, Canada, may be producing picturesque, red-tinted views for the residents of the Pacific Northwest, the detrimental effect that it is having on the air quality of the region is reaching troubling levels.</p>
+	</div>
+	<hr>
+	<div class="news-blog">
+		<a href="https://www.accuweather.com/en/weather-news/stormy-pattern-to-buffet-germany-to-end-the-week-cooler-air-to-arrive-this-weekend/70002357"><img src="img/news2.jpg"></a>
+		<h2>Stormy pattern to buffet Germany to end the week; Cooler air to arrive this weekend</h2>
+	</div>
+	<div class="news-data2">
+		<p id="date">August 02, 2017, 07:08:46 AM EDT</p>
+		<p>The threat for dangerous thunderstorms will continue across Germany into Thursday.</p>
+	</div>
+</div>
+
+<div class="register_wrapper">
+
+	<h2>Contact us here</h2>
+	<div class="email">
+		<h4>Email us</h4>
+		<p>prerna@weatherline.com</p>
+	</div>
+	<div class="form">
+		<input class="input-text" type="text" name="" value="Your Name *">
+		<input class="input-text" type="text" name="" value="Your E-mail *">
+		<textarea class="input-text text-area" cols="0" rows="0">Your Message *</textarea>
+		<button class="button">Send message</button>
+	</div>
+</div>          
+
+<footer class="footer">
+	<div class="review_section">
+		<p>Follow us on</p>
+		<div id="footer">
+			<a href="#"><img src="img/t.jpg"></a>
+		</div>
+		<a href="#"><img src="img/f.png"></a>
+		<a href="#"><img src="img/i.jpg"></a>
+	</div>
+</footer>
+
+</body>
